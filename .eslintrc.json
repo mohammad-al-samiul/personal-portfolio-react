@@ -22,7 +22,14 @@
     "jsx-a11y/anchor-is-valid": 0,
     "quotes": "off",
     "jsx-a11y/no-noninteractive-element-interactions": 0,
-    "import/no-self-import": 0,
-    "arrow-body-style": 0
+    // "import/no-self-import": 0,
+    "arrow-body-style": 0,
+    "no-var": "error",
+    "camelcase": "error",
+    "no-empty": "error",
+    "default-case": "error",
+    "eqeqeq": "error",
+
+    "max-depth": ["error", 3]
   }
 }

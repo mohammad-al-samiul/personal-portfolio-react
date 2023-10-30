@@ -22,10 +22,9 @@ function Header() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/">
             <span className="text-2xl font-bold text-red-500">
-              <span className="text-4xl font-lilita-one text-red-500">
-                A
-              </span>
-              l Samiul
+              <span className="text-4xl font-lilita-one text-red-500">A</span>
+              l
+              Samiul
             </span>
           </Link>
           <button
@@ -66,20 +65,21 @@ function Header() {
                   Home
                 </NavLink>
               </li>
-              <li onClick={handleClick}>
-                <NavLink
-                  to="/project"
-                  className="nav-link block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Project
-                </NavLink>
-              </li>
+
               <li onClick={handleClick}>
                 <NavLink
                   to="/skills"
                   className="nav-link block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Skills
+                </NavLink>
+              </li>
+              <li onClick={handleClick}>
+                <NavLink
+                  to="/project"
+                  className="nav-link block py-2 pl-3 pr-4 text-gray-900 rounded md:hover:bg-transparent md:border-0 md:hover:text-red-500 md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Project
                 </NavLink>
               </li>
               <li onClick={handleClick}>
