@@ -1,34 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
+import myImage from '../../../assets/my-bg2.jpg';
 
 function Hero() {
+  const [textColor, setTextColor] = useState("purple");
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="/images/stock/photo-1635805737707-575885ab0820.jpg"
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
-        <div>
+        <img src={myImage} className="w-1/2 rounded-lg" />
+        <div className="w-1/2">
           <h2 className="text-3xl font-bold">Hi! Al Samiul</h2>
-          <div>
+          <span className="text-5xl">I am a</span>
+          <span
+            style={{
+              fontSize: "48px",
+              color: textColor,
+            }}
+          >
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed once, initially
-                "I am a Coder",
+                " Coder",
                 1000,
-                "I am a Software Developer",
+                () => setTextColor("darksalmon"),
+
+                " Software Developer",
                 1000,
-                "I am a Full Stack Developer",
+                () => setTextColor("deeppink"),
+                " Full Stack Developer",
                 1000,
-                "I am a Frontend Developer",
+                () => setTextColor("darkviolet"),
+                " Frontend Developer",
                 1000,
+                () => setTextColor("dodgerblue"),
               ]}
               speed={50}
-              style={{ fontSize: "50px" }}
+              style={{ fontSize: "48px" }}
               repeat={Infinity}
             />
-          </div>
+          </span>
           <p className="py-6">
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
