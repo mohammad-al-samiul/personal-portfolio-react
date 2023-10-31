@@ -1,19 +1,23 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import myImage from '../../../assets/my-bg2.jpg';
+import myImage from '../../../assets/images/hardy.png';
+import './Hero.css';
 
 function Hero() {
   const [textColor, setTextColor] = useState("purple");
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={myImage} className="w-1/2 rounded-lg" />
-        <div className="w-1/2">
+    <div className="hero max-h-screen p-0">
+      <div className="hero-content p-0 flex-col lg:flex-row-reverse">
+        <div className="image-bg">
+          <img src={myImage} className="rounded-lg" />
+        </div>
+
+        <div className="lg:w-1/2 px-24">
           <h2 className="text-3xl font-bold">Hi! Al Samiul</h2>
-          <span className="text-5xl">I am a</span>
+          <span className="text-4xl">I am a</span>
           <span
             style={{
-              fontSize: "48px",
+              fontSize: "36px",
               color: textColor,
             }}
           >
@@ -34,7 +38,7 @@ function Hero() {
                 () => setTextColor("dodgerblue"),
               ]}
               speed={50}
-              style={{ fontSize: "48px" }}
+              style={{ fontSize: "36px" }}
               repeat={Infinity}
             />
           </span>
@@ -42,7 +46,7 @@ function Hero() {
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn-design">Get Started</button>
         </div>
       </div>
     </div>

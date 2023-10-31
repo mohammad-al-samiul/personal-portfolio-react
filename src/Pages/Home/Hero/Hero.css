@@ -1,0 +1,18 @@
+.hero {
+  background: #fff8f3;
+}
+.hero-content {
+  background-image: url("../../../assets/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.btn-design {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  --tw-text-opacity: 1;
+  background-color: rgb(240 82 82 / var(--tw-text-opacity));
+}
