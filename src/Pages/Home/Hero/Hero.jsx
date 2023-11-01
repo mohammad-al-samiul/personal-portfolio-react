@@ -6,13 +6,16 @@ import './Hero.css';
 function Hero() {
   const [textColor, setTextColor] = useState("purple");
   return (
-    <div className="hero  lg:max-h-screen p-0">
-      <div className="hero-content p-0 flex-col-reverse lg:flex-row-reverse justify-between">
-        <div className="image-bg ">
+    <div className="hero place-items-end lg:max-h-screen ">
+      <div
+        className="hero-content  flex-col-reverse lg:flex-row-reverse m-0 p-0"
+
+      >
+        <div>
           <img src={myImage} className="rounded-lg" />
         </div>
 
-        <div className="lg:w-1/2 pt-5 px-8 lg:px-24 pb-10">
+        <div className="lg:w-1/2 pt-5 px-8 lg:px-24 ">
           <h2 className="text-3xl font-bold">Hi! Al Samiul</h2>
           <span className="text-4xl">I am a</span>
           <span
@@ -46,7 +49,7 @@ function Hero() {
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
           </p>
-          <button className="btn-design">Get Started</button>
+          <a className="btn-design">Resume</a>
         </div>
       </div>
     </div>

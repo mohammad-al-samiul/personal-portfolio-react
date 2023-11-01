@@ -2,9 +2,12 @@
   background: #fff8f3;
 }
 .hero-content {
-  background-image: url("../../../assets/images/developer.png");
+  background-image: url("../../../assets/images/developer.png"),
+    url("../../../assets//images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position:
+    left,
+    right bottom;
 }
 
 .btn-design {
@@ -12,8 +15,14 @@
   font-weight: 700;
   font-size: 16px;
   border: 0;
-  padding: 10px 20px;
+  padding: 13px 20px;
   border-radius: 8px;
-  --tw-text-opacity: 1;
-  background-color: rgb(240 82 82 / var(--tw-text-opacity));
+
+  background-color: rgb(240 82 82);
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px) {
+  .hero-content {
+    background-size: 20%, 120%;
+  }
 }
