@@ -26,8 +26,8 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col ">
-          <div className=" lg:flex mt-5 lg:mt-24 mb-12 flex-row justify-around lg:justify-between">
+        <div className="flex flex-col">
+          <div className=" flex mt-4 lg:mt-24  flex-row justify-around lg:justify-between">
             <Link
               to="/"
               className="hidden md:block cursor-pointer font-bold text-gray-600 font-stylish-one uppercase text-xl"
@@ -58,21 +58,20 @@ function Footer() {
             >
               Contact
             </Link>
-
-            <div className="text-gray-600 flex gap-4 justify-center lg:items-start mt-5 lg:mt-0">
-              <a target="_blank" href="">
-                <FaFacebook className="text-3xl hover:text-red-400 " />
-              </a>
-
-              <a target="_blank" href="">
-                <FaGithub className="text-3xl hover:text-red-400" />
-              </a>
-              <a target="_blank" href="">
-                <FaLinkedinIn className="text-3xl hover:text-red-400" />
-              </a>
-            </div>
           </div>
-          <hr className="border-gray-600" />
+          <div className="text-gray-600 flex gap-4 justify-center lg:items-start mt-4 lg:mt-6">
+            <a target="_blank" href="">
+              <FaFacebook className="text-3xl hover:text-red-400 " />
+            </a>
+
+            <a target="_blank" href="">
+              <FaGithub className="text-3xl hover:text-red-400" />
+            </a>
+            <a target="_blank" href="">
+              <FaLinkedinIn className="text-3xl hover:text-red-400" />
+            </a>
+          </div>
+          <hr className="border-gray-600 mt-7" />
           <p className="w-full text-center my-12 text-gray-600">
             Copyright © 2023 Al Samiul Creative
           </p>
