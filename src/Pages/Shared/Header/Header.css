@@ -1,20 +1,19 @@
 .nav-link.active {
-  color: rgb(240 82 82 / var(--tw-text-opacity));
+  color: rgb(240 82 82);
   font-weight: bold;
 }
+.nav-link:hover {
+  color: rgb(240 82 82);
+}
 
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
   .nav-link:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+    background-color: rgba(204, 154, 115, 0.375);
+    color: white;
   }
   .nav-link.active {
-    background-color: rgb(240 82 82 / var(--tw-text-opacity));
+    background-color: rgba(199, 137, 90, 0.63);
     color: white;
     font-weight: 400;
-  }
-  .nav-link.active:hover {
-    background-color: rgb(224 36 36 / var(--tw-text-opacity));
-    color: white;
   }
 }

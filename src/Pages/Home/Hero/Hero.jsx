@@ -49,7 +49,7 @@ function Hero() {
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
           </p>
-          <a className="btn-design">Resume</a>
+          <a href="" className="btn-design">Resume</a>
         </div>
       </div>
     </div>

@@ -27,6 +27,7 @@
     "react/button-has-type": 0,
     "jsx-a11y/alt-text": 0,
     "max-len": 0,
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "jsx-a11y/label-has-associated-control": 0
   }
 }

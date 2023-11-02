@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="mx-32 bg-[#fff8f3]">
-      <div className="p-16">
-        <div className="text-center">
+    <div className="lg:mx-32 bg-[#fff8f3]">
+      <div className="p-8 lg:p-16">
+        <div className="lg:text-center text-justify">
           <h1 className="text-3xl font-bold">About Me</h1>
           <p className="my-3">
             I am a passionate and experienced MERN stack web developer with a
@@ -17,22 +17,20 @@ function About() {
             alike.
           </p>
         </div>
-        <div className="flex justify-between mt-10 ">
-          <div>
+        <div className="lg:flex justify-between mt-10 ">
+          <div className="flex lg:grid">
             <p>Name:</p>
             <h3 className="font-bold">Al Samiul</h3>
           </div>
-          <div className="">
+          <div className="flex lg:grid">
             <p>Email:</p>
-            <h3 className="font-bold ">
-              samiulwebprogrammer@gmail.com
-            </h3>
+            <h3 className="font-bold ">samiulwebprogrammer@gmail.com</h3>
           </div>
-          <div>
+          <div className="flex lg:grid">
             <p>Date of Birth:</p>
             <h3 className="font-bold">30 january 2002</h3>
           </div>
-          <div>
+          <div className="flex lg:grid">
             <p>From:</p>
             <h3 className="font-bold">Chittagong, Bangladesh</h3>
           </div>

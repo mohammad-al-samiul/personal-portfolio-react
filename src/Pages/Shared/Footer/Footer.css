@@ -1,0 +1,6 @@
+.custom-focus-border {
+  border-color: red !important;
+}
+.input {
+  border-bottom: 1px solid salmon;
+}

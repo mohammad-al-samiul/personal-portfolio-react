@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Hero />
-      <div className="mt-20">
+      <div className="lg:mt-20">
         <About />
       </div>
     </div>
