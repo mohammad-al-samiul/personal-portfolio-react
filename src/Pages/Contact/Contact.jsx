@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-      <div className="lg:flex lg:mt-10 bg-[#fff8f3] p-6 lg:p-16">
+      <div className="lg:flex lg:mt-10 bg-[#fff8f3] p-6 lg:p-16 items-center text-gray-600">
         <div className="lg:w-1/2 lg:px-4">
           <div>
             <h2 className="text-3xl font-bold">Let's Connect</h2>
@@ -16,7 +16,7 @@ function Contact() {
             <div />
           </div>
         </div>
-        <div className="lg:w-1/2 lg:px-4 lg:ml-20 ">
+        <div className="lg:w-1/2 lg:px-4 lg:pl-40">
           <h2 className="text-3xl font-bold mb-6 mt-10 lg:mt-0">
             Let's Message me
           </h2>

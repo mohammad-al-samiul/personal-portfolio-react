@@ -8,7 +8,9 @@ export default {
     extend: {
        fontFamily: {
        'lilita-one': ['Lilita One', 'sans'],
+       'stylish-one': ['Stylish', 'sans'],
       },
+
     },
   },
   plugins: [require("daisyui")],

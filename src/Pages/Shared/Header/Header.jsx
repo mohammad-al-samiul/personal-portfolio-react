@@ -20,10 +20,8 @@ function Header() {
     <nav className=" border-gray-200  bg-[#fff8f3]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/">
-          <span className="text-2xl font-bold text-red-500">
-            <span className="text-4xl font-lilita-one text-red-500">A</span>
-            l
-            Samiul
+          <span className="text-4xl font-bold text-gray-600 font-stylish-one uppercase">
+            Al Samiul
           </span>
         </Link>
         <button
@@ -55,11 +53,11 @@ function Header() {
           className={`${open ? "" : "hidden"} w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-[#e8b772] lg:bg-[#fff8f3]">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-[#e8b772] lg:bg-[#fff8f3] uppercase">
             <li onClick={handleClick} style={{ navLinkStyles }}>
               <NavLink
                 to="/home"
-                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-800 rounded"
+                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
                 Home
               </NavLink>
@@ -68,7 +66,7 @@ function Header() {
             <li onClick={handleClick}>
               <NavLink
                 to="/skills"
-                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-800 rounded"
+                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
                 Skills
               </NavLink>
@@ -76,7 +74,7 @@ function Header() {
             <li onClick={handleClick}>
               <NavLink
                 to="/project"
-                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-800 rounded"
+                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
                 Project
               </NavLink>
@@ -84,7 +82,7 @@ function Header() {
             <li onClick={handleClick}>
               <NavLink
                 to="/contact"
-                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-800 rounded"
+                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
                 Contact
               </NavLink>
