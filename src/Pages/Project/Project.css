@@ -43,8 +43,27 @@
   font-size: 100px;
   font-weight: 700;
   z-index: 10;
+  display: none;
+}
+.project-card:hover .project-number {
+  display: block;
 }
 .project-number-right {
   right: -10px;
   top: -40px;
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right: 10%;
+  padding-left: 5%;
+  position: absolute;
+  color: white;
+  bottom: 23%;
+  z-index: 20;
+  transition: all 0.4s;
+}
+.project-card:hover .project-content {
+  transform: scale(1.1);
 }

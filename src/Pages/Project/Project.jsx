@@ -29,13 +29,11 @@ function Project() {
                 <img className="w-10" src={mongodb} alt="" />
               </div>
               <div className="">
-                <h1 className="text-3xl font-bold">Doctor's Portal</h1>
+                <h1 className="text-4xl font-bold mb-3">Doctor's Portal</h1>
                 <p>
                   A "Doctor's Portal" designed specifically for dentists is a
                   web-based platform tailored to the needs of dental
-                  professionals and practices. This portal offers a range of
-                  features and functionalities geared towards efficient dental
-                  practice management and improved patient care.
+                  professionals and practices.
                 </p>
               </div>
               <div className="flex items-center gap-4">
