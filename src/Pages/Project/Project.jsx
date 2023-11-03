@@ -12,13 +12,13 @@ import "./Project.css";
 
 function Project() {
   return (
-    <div className="mt-20">
-      <h2 className="text-5xl font-bold text-center text-red-400 ">Project</h2>
-      <div className="project-container mt-20">
+    <div className="mt-8 lg:mt-20">
+      <h2 className="text-3xl lg:text-5xl font-bold text-center text-red-400 ">Project</h2>
+      <div className="project-container mt-8 lg:mt-20">
         <div className="project-card" id="project-01">
           <div className="project-number project-number-right ">01</div>
-          <div className="project-content project-content-left w-1/2">
-            <div className="flex">
+          <div className="project-content project-content-left lg:w-1/2">
+            <div className="hidden lg:flex">
               <img className="w-10" src={html} alt="" />
               <img className="w-10" src={css} alt="" />
               <img className="w-10" src={javasript} alt="" />
@@ -29,17 +29,17 @@ function Project() {
               <img className="w-10" src={mongodb} alt="" />
             </div>
             <div>
-              <h1 className="text-4xl font-bold mb-3">
+              <h1 className="text-lg lg:text-4xl font-bold text-center lg:text-start lg:mb-3">
                 Regal Dragon Restuarant
               </h1>
-              <p>
+              <p className="hidden lg:block">
                 Regal Dragon website is an online food delivery and ordering
                 platform designed to connect users with a wide range of
                 restaurants, allowing them to order food for delivery or pickup
               </p>
             </div>
-            <div className="flex items-center gap-4">
-              <a target="_blank" href="" className="btn-design">
+            <div className="flex justify-center lg:justify-start lg:items-center gap-4">
+              <a target="_blank" href="" className="btn-design hidden lg:block">
                 Read More
               </a>
               <a
@@ -61,8 +61,8 @@ function Project() {
         </div>
         <div className="project-card" id="project-02">
           <div className="project-number project-number-left ">02</div>
-          <div className="project-content project-content-right w-1/2">
-            <div className="flex">
+          <div className="project-content project-content-right lg:w-1/2">
+            <div className="hidden lg:flex">
               <img className="w-10" src={html} alt="" />
               <img className="w-10" src={css} alt="" />
               <img className="w-10" src={javasript} alt="" />
@@ -73,15 +73,17 @@ function Project() {
               <img className="w-10" src={mongodb} alt="" />
             </div>
             <div>
-              <h1 className="text-4xl font-bold mb-3">Doctor's Portal</h1>
-              <p>
+              <h1 className="text-lg text-center lg:text-start lg:text-4xl font-bold lg:mb-3">
+                Doctor's Portal
+              </h1>
+              <p className="hidden lg:block">
                 Doctor's Portal website designed specifically for dentists is a
                 web-based platform tailored to the needs of dental professionals
                 and practices.
               </p>
             </div>
-            <div className="flex items-center gap-4">
-              <a target="_blank" href="" className="btn-design">
+            <div className="flex justify-center lg:justify-start lg:items-center gap-4">
+              <a target="_blank" href="" className="btn-design hidden lg:block">
                 Read More
               </a>
               <a
@@ -101,10 +103,10 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="project-card" id="project-03">
+        <div className="project-card " id="project-03">
           <div className="project-number project-number-right ">03</div>
-          <div className="project-content project-content-left w-1/2">
-            <div className="flex">
+          <div className="project-content project-content-left text-center lg:text-start lg:w-1/2">
+            <div className="hidden lg:flex">
               <img className="w-10" src={html} alt="" />
               <img className="w-10" src={css} alt="" />
               <img className="w-10" src={javasript} alt="" />
@@ -115,15 +117,17 @@ function Project() {
               <img className="w-10" src={mongodb} alt="" />
             </div>
             <div>
-              <h1 className="text-4xl font-bold mb-3">Brandisctic Ecommerce</h1>
-              <p>
+              <h1 className="text-lg lg:text-4xl font-bold lg:mb-3">
+                Brandisctic Ecommerce
+              </h1>
+              <p className="hidden lg:block">
                 Brandistic eCommerce website is a digital platform designed to
                 facilitate online transactions, enabling businesses to sell
                 their products or services to a global or local customer base.
               </p>
             </div>
-            <div className="flex items-center gap-4">
-              <a target="_blank" href="" className="btn-design">
+            <div className="flex justify-center lg:justify-start items-center gap-4">
+              <a target="_blank" href="" className="btn-design hidden lg:block">
                 Read More
               </a>
               <a

@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <div className="  bg-[#fff8f3] text-gray-600 flex justify-center">
-      <div className="p-8 lg:p-16 w-2/3">
+      <div className="p-8 lg:p-16 lg:w-2/3">
         <div className="lg:text-center text-justify ">
-          <h1 className="text-5xl font-bold text-center text-red-400">
+          <h1 className="text-3xl lg:text-5xl font-bold text-center text-red-400">
             About Me
           </h1>
           <p className="my-7">
