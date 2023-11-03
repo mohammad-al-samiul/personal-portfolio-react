@@ -1,14 +1,14 @@
 import React from 'react';
 import About from '../About/About';
+import Project from '../Project/Project';
 import Hero from './Hero/Hero';
 
 function Home() {
   return (
     <div>
       <Hero />
-      <div className="lg:mt-20">
-        <About />
-      </div>
+      <About />
+      <Project />
     </div>
   );
 }

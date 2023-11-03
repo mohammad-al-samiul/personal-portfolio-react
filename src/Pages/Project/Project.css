@@ -1,5 +1,23 @@
-.project-card {
+#project-01 {
+  background-image: url("../../assets//images/project/regal-dragon.png");
+}
+#project-02 {
   background-image: url("../../assets//images/project/doctors-portal.png");
+}
+#project-03 {
+  background-image: url("../../assets//images/project/brandistic-ecommerce.png");
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
   background-repeat: no-repeat;
   background-size: cover;
   width: 70%;
@@ -45,6 +63,7 @@
   z-index: 10;
   display: none;
 }
+
 .project-card:hover .project-number {
   display: block;
 }
@@ -52,18 +71,27 @@
   right: -10px;
   top: -40px;
 }
+.project-number-left {
+  left: -10px;
+  top: -40px;
+}
 
 .project-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  right: 10%;
-  padding-left: 5%;
+
   position: absolute;
   color: white;
   bottom: 23%;
   z-index: 20;
   transition: all 0.4s;
+}
+.project-content-left {
+  left: 8%;
+}
+.project-content-right {
+  right: 5%;
 }
 .project-card:hover .project-content {
   transform: scale(1.1);

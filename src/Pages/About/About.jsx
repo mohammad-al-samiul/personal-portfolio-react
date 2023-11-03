@@ -5,7 +5,9 @@ function About() {
     <div className="  bg-[#fff8f3] text-gray-600 flex justify-center">
       <div className="p-8 lg:p-16 w-2/3">
         <div className="lg:text-center text-justify ">
-          <h1 className="text-3xl font-bold">About Me</h1>
+          <h1 className="text-5xl font-bold text-center text-red-400">
+            About Me
+          </h1>
           <p className="my-7">
             I am a passionate and experienced MERN stack web developer with a
             strong love for creating robust and interactive web applications. My
