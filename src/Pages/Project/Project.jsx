@@ -28,7 +28,7 @@ function Project() {
                 <img className="w-10" src={express} alt="" />
                 <img className="w-10" src={mongodb} alt="" />
               </div>
-              <div className="">
+              <div>
                 <h1 className="text-4xl font-bold mb-3">Doctor's Portal</h1>
                 <p>
                   A "Doctor's Portal" designed specifically for dentists is a
@@ -45,14 +45,14 @@ function Project() {
                   href="https://github.com/mohammad-al-samiul"
                   rel="noreferrer"
                 >
-                  <FaGithub className="text-4xl hover:text-red-400" />
+                  <FaGithub className="text-4xl hover:text-red-400 transition-all duration-600" />
                 </a>
                 <a
                   target="_blank"
                   href="https://github.com/mohammad-al-samiul"
                   rel="noreferrer"
                 >
-                  <FaLink className="text-4xl hover:text-red-400" />
+                  <FaLink className="text-4xl hover:text-red-400 transition-all duration-600" />
                 </a>
               </div>
             </div>
