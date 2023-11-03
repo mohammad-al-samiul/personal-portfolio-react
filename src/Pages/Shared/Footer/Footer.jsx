@@ -60,14 +60,22 @@ function Footer() {
             </Link>
           </div>
           <div className="text-gray-600 flex gap-4 justify-center lg:items-start mt-4 lg:mt-6">
-            <a target="_blank" href="">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/alsamiul11"
+              rel="noreferrer"
+            >
               <FaFacebook className="text-3xl hover:text-red-400 " />
             </a>
 
-            <a target="_blank" href="">
+            <a
+              target="_blank"
+              href="https://github.com/mohammad-al-samiul"
+              rel="noreferrer"
+            >
               <FaGithub className="text-3xl hover:text-red-400" />
             </a>
-            <a target="_blank" href="">
+            <a target="_blank" href="https://www.linkedin.com/in/al-samiul/" rel="noreferrer">
               <FaLinkedinIn className="text-3xl hover:text-red-400" />
             </a>
           </div>

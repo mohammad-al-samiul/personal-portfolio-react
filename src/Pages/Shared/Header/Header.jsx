@@ -62,21 +62,29 @@ function Header() {
                 Home
               </NavLink>
             </li>
-
-            <li onClick={handleClick}>
+            <li onClick={handleClick} style={{ navLinkStyles }}>
               <NavLink
-                to="/skills"
+                to="/about"
                 className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
-                Skills
+                About
               </NavLink>
             </li>
+
             <li onClick={handleClick}>
               <NavLink
                 to="/project"
                 className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
               >
                 Project
+              </NavLink>
+            </li>
+            <li onClick={handleClick}>
+              <NavLink
+                to="/skills"
+                className="nav-link block py-2 pl-3 pr-4 text-white lg:text-gray-600 rounded"
+              >
+                Skills
               </NavLink>
             </li>
             <li onClick={handleClick}>

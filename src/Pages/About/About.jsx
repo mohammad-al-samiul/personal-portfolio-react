@@ -2,11 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div className="lg:mx-32 bg-[#fff8f3] text-gray-600">
-      <div className="p-8 lg:p-16">
-        <div className="lg:text-center text-justify">
+    <div className="  bg-[#fff8f3] text-gray-600 flex justify-center">
+      <div className="p-8 lg:p-16 w-2/3">
+        <div className="lg:text-center text-justify ">
           <h1 className="text-3xl font-bold">About Me</h1>
-          <p className="my-3">
+          <p className="my-7">
             I am a passionate and experienced MERN stack web developer with a
             strong love for creating robust and interactive web applications. My
             journey in the world of web development started 1.5 years ago, and I

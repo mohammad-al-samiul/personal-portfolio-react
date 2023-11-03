@@ -1,0 +1,50 @@
+.project-card {
+  background-image: url("../../assets//images/project/doctors-portal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70%;
+  height: 500px;
+  position: relative;
+  box-shadow: 0px 0px 40px #1f1f1f;
+}
+
+.project-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #1f1f1f9a;
+  z-index: 0;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.4s;
+  z-index: 1;
+}
+
+.project-card:hover::before {
+  transform: scaleX(1);
+}
+
+.project-number {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  font-weight: 700;
+  z-index: 10;
+}
+.project-number-right {
+  right: -10px;
+  top: -40px;
+}
