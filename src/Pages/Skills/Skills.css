@@ -1,0 +1,23 @@
+.blob-style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -5;
+  transform: translate(-50%, -50%);
+  animation: blobAnimation 3s linear infinite;
+}
+
+@keyframes blobAnimation {
+  50% {
+    top: 54%;
+    left: 46%;
+  }
+}
+
+.skill-logo {
+  width: 80px;
+  transition: all 0.5s;
+}
+.skill-logo:hover {
+  transform: scale(1.2);
+}

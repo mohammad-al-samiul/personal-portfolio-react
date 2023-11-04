@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import Project from '../Project/Project';
+import Skills from '../Skills/Skills';
 import Hero from './Hero/Hero';
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <Hero />
       <About />
       <Project />
+      <Skills />
     </div>
   );
 }

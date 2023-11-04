@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="  bg-[#fff8f3] text-gray-600 flex justify-center">
+    <div className="w-[90%] lg:w-[80%] mx-auto bg-[#fff8f3] text-gray-600 flex justify-center mt-10 lg:mt-20 ">
       <div className="p-8 lg:p-16 lg:w-2/3">
-        <div className="lg:text-center text-justify ">
+        <div className="lg:text-center text-justify px-5">
           <h1 className="text-3xl lg:text-5xl font-bold text-center text-red-400">
             About Me
           </h1>
@@ -19,7 +19,7 @@ function About() {
             alike.
           </p>
         </div>
-        <div className="lg:flex justify-between mt-10 ">
+        <div className="lg:flex justify-between mt-10 px-5">
           <div className="flex lg:grid">
             <p>Name:</p>
             <h3 className="font-bold">Al Samiul</h3>

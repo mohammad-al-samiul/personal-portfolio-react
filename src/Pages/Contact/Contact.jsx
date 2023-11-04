@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-      <div className="lg:flex lg:mt-10 bg-[#fff8f3] p-6 lg:p-16 items-center text-gray-600">
+      <div className="w-[80%] mx-auto lg:flex lg:mt-20 bg-[#fff8f3] p-6 lg:p-16 items-center text-gray-600">
         <div className="lg:w-1/2 lg:px-4">
           <div>
             <h2 className="text-3xl font-bold">Let's Connect</h2>
@@ -41,7 +41,7 @@ function Contact() {
                 placeholder="Message"
               />
             </div>
-            <div>
+            <div className="mt-3">
               <button
                 type="submit"
                 className="w-full max-w-xs bg-red-400 text-white px-2 py-2 rounded-md focus:bg-red-500"

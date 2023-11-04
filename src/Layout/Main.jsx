@@ -5,7 +5,7 @@ import Header from '../Pages/Shared/Header/Header';
 
 function Main() {
   return (
-    <div className="bg-[#fff8f3]">
+    <div className="">
       <Header />
       <Outlet />
       <Footer />

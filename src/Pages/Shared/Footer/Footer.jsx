@@ -11,13 +11,13 @@ function Footer() {
         <div className="w-full text-3xl lg:text-6xl font-bold mt-6">
           <h1 className="w-full md:w-2/3 text-gray-600">Get in Touch</h1>
         </div>
-        <div className="flex mt-8 flex-col md:flex-row md:justify-between ">
+        <div className="flex mt-8 flex-col md:flex-row md:justify-between items-start ">
           <p className="w-full md:w-2/3 text-gray-600 text-justify">
             I'm always open to new opportunities, collaboration, and connecting
             with fellow developers. Feel free to reach out to me via Email or
             connect with me on LinkedIn
           </p>
-          <div className="w-44 pt-6 md:pt-0">
+          <div className="lg:w-[20%] w-full flex justify-center mt-3 lg:mt-0 lg:pt-0 ">
             <Link
               to="/contact"
               className="bg-red-400 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center"
