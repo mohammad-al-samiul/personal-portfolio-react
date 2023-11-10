@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-[90%] lg:w-[80%] mx-auto bg-[#fff8f3] text-gray-600 flex justify-center mt-10 lg:mt-20 ">
-      <div className="p-8 lg:p-16 lg:w-2/3">
-        <div className="lg:text-center text-justify px-5">
+    <div className="w-[90%] lg:w-[85%] mx-auto bg-[#fff8f3] text-gray-600 flex justify-center mt-10 lg:mt-20 ">
+      <div className="p-8 lg:p-10 lg:w-2/3">
+        <div className="lg:text-center text-justify">
           <h1 className="text-3xl lg:text-5xl font-bold text-center text-red-400">
             About Me
           </h1>
@@ -19,8 +19,8 @@ function About() {
             alike.
           </p>
         </div>
-        <div className="lg:flex justify-between mt-10 px-5">
-          <div className="flex lg:grid">
+        <div className="lg:flex justify-between mt-10 px-5  ">
+          <div className="flex lg:grid ">
             <p>Name:</p>
             <h3 className="font-bold">Al Samiul</h3>
           </div>
@@ -28,11 +28,11 @@ function About() {
             <p>Email:</p>
             <h3 className="font-bold ">samiulwebprogrammer@gmail.com</h3>
           </div>
-          <div className="flex lg:grid">
+          <div className="flex lg:grid lg:w-[120px]">
             <p>Date of Birth:</p>
             <h3 className="font-bold">30 january 2002</h3>
           </div>
-          <div className="flex lg:grid">
+          <div className="flex lg:grid lg:w-[100px]">
             <p>From:</p>
             <h3 className="font-bold">Chittagong, Bangladesh</h3>
           </div>
