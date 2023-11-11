@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import myImage from '../../../assets/images/hardy.png';
+import myImage from '../../../assets/images/mePro.png';
 import './Hero.css';
 
 function Hero() {
   const [textColor, setTextColor] = useState("purple");
   return (
-    <div className="hero place-items-end lg:max-h-screen ">
+    <div className="hero place-items-end  ">
       <div
         className="hero-content  flex-col-reverse lg:flex-row-reverse  m-0 p-0"
 
       >
-        <div>
+        <div className="">
           <img src={myImage} className="rounded-lg" />
         </div>
 

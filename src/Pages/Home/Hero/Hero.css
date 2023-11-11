@@ -8,6 +8,7 @@
   background-position:
     left,
     right bottom;
+  background-size: auto, 60%;
 }
 
 .btn-design {

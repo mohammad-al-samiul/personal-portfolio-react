@@ -8,7 +8,7 @@ function About() {
           <h1 className="text-3xl lg:text-5xl font-bold text-center text-red-400">
             About Me
           </h1>
-          <p className="my-7">
+          <p className="my-7 px-5">
             I am a passionate and experienced MERN stack web developer with a
             strong love for creating robust and interactive web applications. My
             journey in the world of web development started 1.5 years ago, and I
