@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import myImage from '../../../assets/images/mePro.png';
+import myImage from '../../../assets/images/my-photo.png';
 import './Hero.css';
 
 function Hero() {
@@ -12,7 +12,7 @@ function Hero() {
 
       >
         <div className="">
-          <img src={myImage} className="rounded-lg" />
+          <img src={myImage} className="" />
         </div>
 
         <div className="lg:w-1/2 pt-5 px-8 lg:px-24 text-gray-600">
