@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
-import myImage from '../../../assets/images/my-photo.png';
-import './Hero.css';
+import myImage from "../../../assets/images/my-photo.png";
+import "./Hero.css";
 
 function Hero() {
   const [textColor, setTextColor] = useState("purple");
   return (
     <div className="hero place-items-end  ">
-      <div
-        className="hero-content  flex-col-reverse lg:flex-row-reverse  m-0 p-0"
-
-      >
-        <div className="">
-          <img src={myImage} className="" />
+      <div className="hero-content  flex-col-reverse lg:flex-row-reverse  m-0 p-0">
+        <div>
+          <img src={myImage} />
         </div>
 
         <div className="lg:w-1/2 pt-5 px-8 lg:px-24 text-gray-600">
@@ -49,7 +46,9 @@ function Hero() {
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
           </p>
-          <a target="_blank" href="" className="btn-design">Resume</a>
+          <a target="_blank" href="" className="btn-design">
+            Resume
+          </a>
         </div>
       </div>
     </div>
