@@ -21,7 +21,7 @@
   background-color: rgb(240 82 82);
 }
 
-@media screen and (min-width: 360px) and (max-width: 800px) {
+@media screen and (min-width: 360px) and (max-width: 1024px) {
   .hero-content {
     background-size: 20%, 120%;
   }

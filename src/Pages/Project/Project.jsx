@@ -13,7 +13,9 @@ import "./Project.css";
 function Project() {
   return (
     <div className="mt-8 lg:mt-20">
-      <h2 className="text-3xl lg:text-5xl font-bold text-center text-red-400 ">Project</h2>
+      <h2 className="text-3xl lg:text-5xl font-bold text-center text-red-400 ">
+        Project
+      </h2>
       <div className="project-container mt-8 lg:mt-20">
         <div className="project-card" id="project-01">
           <div className="project-number project-number-right ">01</div>
@@ -118,12 +120,14 @@ function Project() {
             </div>
             <div>
               <h1 className="text-lg lg:text-4xl font-bold lg:mb-3">
-                Brandisctic Ecommerce
+                Genius Car
               </h1>
               <p className="hidden lg:block">
-                Brandistic eCommerce website is a digital platform designed to
-                facilitate online transactions, enabling businesses to sell
-                their products or services to a global or local customer base.
+                At our website, users have the flexibility to explore a diverse
+                range of services tailored to their vehicle's needs. Whether
+                it's routine maintenance, repairs, or upgrades, our
+                comprehensive selection ensures that every customer finds
+                exactly what they're looking for.
               </p>
             </div>
             <div className="flex justify-center lg:justify-start items-center gap-4">
@@ -132,14 +136,14 @@ function Project() {
               </a>
               <a
                 target="_blank"
-                href="https://github.com/mohammad-al-samiul/Brandistic-Ecommerce-Website"
+                href="https://github.com/mohammad-al-samiul/genius-car-client"
                 rel="noreferrer"
               >
                 <FaGithub className="text-4xl hover:text-red-400 transition-all duration-600" />
               </a>
               <a
                 target="_blank"
-                href="https://brandistic-ecommerce-react.netlify.app/"
+                href="https://genius-car-react.netlify.app/"
                 rel="noreferrer"
               >
                 <FaLink className="text-4xl hover:text-red-400 transition-all duration-600" />

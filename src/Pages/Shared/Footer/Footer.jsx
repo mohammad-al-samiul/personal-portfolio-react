@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  FaFacebook, FaGithub, FaLinkedinIn,
-} from "react-icons/fa6";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -62,7 +60,7 @@ function Footer() {
           <div className="text-gray-600 flex gap-4 justify-center lg:items-start mt-4 lg:mt-6">
             <a
               target="_blank"
-              href="https://www.facebook.com/alsamiul11"
+              href="https://www.facebook.com/alsamiul1996"
               rel="noreferrer"
             >
               <FaFacebook className="text-3xl hover:text-red-400 " />

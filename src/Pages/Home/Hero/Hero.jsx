@@ -46,7 +46,12 @@ function Hero() {
             I am a Software Developer and here is my portfolio website. Here
             you'll learn about my journey as a software developer.
           </p>
-          <a target="_blank" href="" className="btn-design">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/118f-b0RIUWvOXZa6lT_3sTN9r4xxlwkG/view?usp=drive_link"
+            className="btn-design"
+            rel="noreferrer"
+          >
             Resume
           </a>
         </div>
